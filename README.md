@@ -27,7 +27,23 @@ Configure git with **your github.com account user email** for hacked contributio
 $ git config user.email "you@example.com"
 ```
 
-### Customize
+### Set up
+
+**Copy** all of the contents of this repo and **from your local repository folder**:
+
+#### Install dependencies
+
+```bash
+yarn install
+```
+
+or
+
+```bash
+npm install
+```
+
+#### Customize
 
 Feel free to edit the config constants in `index.js`.
 
@@ -41,21 +57,9 @@ const EARLIEST_COMMIT_TIME = '09:30';
 const LATEST_COMMIT_TIME = '18:00';
 ```
 
-### Install dependencies
-
-```bash
-yarn install
-```
-
-or
-
-```bash
-npm install
-```
-
 ### Execute Hacktivity
 
-**Copy** all of the contents of this repo and **execute script from your local repository folder**:
+**From your local repository folder**:
 
 ```bash
 $ node .
@@ -72,7 +76,7 @@ $ git push
 License
 =======
 
-Copyrights (c) 2018 Matthew Jackson
+Copyrights (c) 2020 Matthew Jackson
 
 [![License][license-MIT]][license-url]
 Distributed under the MIT license.
