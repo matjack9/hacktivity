@@ -41,6 +41,18 @@ const EARLIEST_COMMIT_TIME = '09:30';
 const LATEST_COMMIT_TIME = '18:00';
 ```
 
+### Install dependencies
+
+```bash
+yarn install
+```
+
+or
+
+```bash
+npm install
+```
+
 ### Execute Hacktivity
 
 **Copy** all of the contents of this repo and **execute script from your local repository folder**:
@@ -66,8 +78,7 @@ Copyrights (c) 2018 Matthew Jackson
 Distributed under the MIT license.
 
 If you like **hacktivity** please star!
-And follow me on GitHub: [matjack9](https://github.com/TangoMan75)
-... And check my other cool projects.
+And follow me on GitHub: [matjack9](https://github.com/matjack9)
 
 [license-MIT]: https://img.shields.io/badge/Licence-MIT-green.svg
 [license-url]: LICENSE
