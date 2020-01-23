@@ -34,13 +34,13 @@ $ git config user.email "you@example.com"
 #### Install dependencies
 
 ```bash
-yarn install
+$ yarn install
 ```
 
 or
 
 ```bash
-npm install
+$ npm install
 ```
 
 #### Customize
