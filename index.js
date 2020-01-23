@@ -41,6 +41,7 @@ const generateActivityForDate = momentDate => {
     // create destination folder
     executeBashCommandSync(`mkdir -p ./fixtures/${folder}`);
 
+    // loop a minimum of MIN_COMMITS times and a maximum of MAX_COMMITS with a 75% chance for another iteration between
     for (let i = 0; i < MIN_COMMITS || i < MAX_COMMITS && Math.random() < 0.75; i++) {
         const [earliestHour, earliestMin] = EARLIEST_COMMIT_TIME.split(':');
         const [latestHour, latestMin] = LATEST_COMMIT_TIME.split(':');
@@ -130,7 +131,7 @@ const handleStartDateResponse = date => {
 prompter.question(startDatePrompt, handleStartDateResponse);
 
 prompter.on('close', () => {
-    console.log("\nBYE BYE !!!");
+    console.log("\nBYE BYE !!! ✌️ ");
     console.log('');
     process.exit(0);
 });
