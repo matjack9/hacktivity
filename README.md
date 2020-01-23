@@ -1,7 +1,7 @@
 HACKTIVITY
 ===================
 
-**Hacktivity** is an node script to ✌hack✌ (*read: fake*) git commit history.
+**Hacktivity** is an node script to ✌️hack✌️ (*read: fake*) git commit history.
 
 Hack contribution activity on GitHub based on your configuration.
 
